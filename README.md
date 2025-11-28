@@ -1,51 +1,47 @@
-# Movie Recommendation System
-### Intro to Problem Solving & Programming — Mini Project  
-### Domain: Entertainment  
+# RSVP Task Manager
 
-## 📌 Overview  
-This project is a simple **content-based movie recommendation system** built entirely inside a Jupyter Notebook.  
-It uses movie **genres** and **overviews** to find similarity between films and recommend movies that are most related.
+**Student Name:** Deeksha Parmar  
+**Registration Number:** 25BCY10211  
+**Course:** Introduction to Problem Solving & Programming  
 
-The goal of this project is to demonstrate:
-- Basic problem-solving approach  
-- Use of Python libraries  
-- Application of text vectorization  
-- Implementing a functional recommendation feature  
+---
 
-## 🧠 Problem Statement  
-People often struggle to decide which movie to watch next.  
-This project solves that by recommending similar movies based on:
-- Genre  
-- Description / overview  
+## **Project Overview**
 
-Using machine learning concepts like **TF-IDF** and **cosine similarity**, the system suggests related movies.
+The RSVP Task Manager is a Python-based task management system developed in Jupyter Notebook. It allows users to efficiently **add, view, update, and delete tasks**. Each task includes key attributes such as:
 
-## 🎯 Features  
-✔ Content-based movie recommendations  
-✔ Uses TF-IDF vectorization  
-✔ Computes movie similarity  
-✔ Simple and beginner-friendly  
-✔ No external files required — dataset created in-notebook  
+- Task Name  
+- Category (e.g., Academics, Personal)  
+- Deadline  
+- Status (Pending / Done)  
+- Task Urgency (Low / Medium / High)  
+- Task Difficulty (Easy / Medium / Hard)  
 
-## 📂 Project Structure  
-## 🛠️ Technologies Used  
-- Python  
-- Jupyter Notebook  
-- Pandas  
-- Scikit-learn  
-- TF-IDF Vectorizer  
-- Cosine Similarity  
+This project demonstrates the application of **problem-solving concepts** and **Python programming skills** to a real-world scenario of task management.
 
-## 📘 How It Works  
-1. A small dataset of movies is created inside the notebook  
-2. Genres + overview are combined into a single text field  
-3. TF-IDF converts the text into numerical vectors  
-4. Cosine similarity measures how similar two movies are  
-5. A function returns the top recommendations for any chosen movie  
+---
 
-## ▶️ Example Usage  
-```python
-recommend("Avatar")
-output gives : ['Avengers', 'Interstellar', 'Inception']
+## **Features**
 
+1. **Add Task:** Users can add new tasks with all attributes.  
+2. **View Tasks:** Displays all tasks in a tabular format.  
+3. **Update Status:** Allows changing the status of a task (Pending → Done).  
+4. **Delete Task:** Removes tasks from the system using Task ID.  
+5. **Interactive Menu:** Menu-driven interface for easy navigation.  
+6. **Persistent Storage:** All tasks are saved in a CSV file (`tasks.csv`) and persist across sessions.  
 
+---
+
+## **Project Evolution**
+
+- **Initial Version:** Tasks included only `Task Name`, `Urgency`, and `Difficulty`.  
+- **Final Version:** Expanded to include `Category`, `Deadline`, and `Status`, allowing better task organization and prioritization.
+
+---
+
+## **Installation & Usage**
+
+1. Clone this repository to your local system:
+
+```bash
+git clone <repository-link>
